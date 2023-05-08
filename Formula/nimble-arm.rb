@@ -1,4 +1,4 @@
-class Nimble < Formula
+class NimbleArm < Formula
   desc "NimbleEdge CLI: nimble - interface to NimbleEdge systems"
   homepage "https://www.nimbleedge.ai/"
   url "https://github.com/NimbleEdge/nimblecli/releases/download/v0.1.1/nimblecli_osx_arm_v0.1.1.zip"
