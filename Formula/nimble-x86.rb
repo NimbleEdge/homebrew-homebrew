@@ -1,9 +1,9 @@
-class NimbleArm < Formula
+class NimbleX86 < Formula
   desc "NimbleEdge CLI: nimble - interface to NimbleEdge systems"
   homepage "https://www.nimbleedge.ai/"
-  url "https://github.com/NimbleEdge/nimblecli/releases/download/v0.1.1/nimblecli_osx_arm_v0.1.1.zip"
-  sha256 "2dbf48d2a8115746911f2b34de321e24d86340a9725f48c4e00878742c65e1a7"
   license "BSD-2-Clause"
+  url "https://github.com/NimbleEdge/nimblecli/releases/download/v0.1.1/nimblecli_osx_v0.1.1.zip"
+  sha256 "68666f69529e169979af521dc1b7cba03fb38e09bb52b65ae9df4263fcfc2fb5"
 
   def install
     bin.install "nimble"
