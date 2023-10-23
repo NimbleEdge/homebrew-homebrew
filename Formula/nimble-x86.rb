@@ -1,9 +1,9 @@
 class NimbleX86 < Formula
   desc "NimbleEdge CLI: nimble - interface to NimbleEdge systems"
   homepage "https://www.nimbleedge.ai/"
+  url "https://github.com/NimbleEdge/nimblecli/releases/download/v0.2.0/nimblecli_osx_v0.2.0.zip"
+  sha256 "9b12aa9253af1ff18b94d40f122e84346c8bb0f8452f6310c7db9f28d8f7e03b"
   license "BSD-2-Clause"
-  url "https://github.com/NimbleEdge/nimblecli/releases/download/v0.1.2/nimblecli_osx_v0.1.2.zip"
-  sha256 "000fb349343ea29809b8831774b552b3083524f07a9794f4558cff7ee82db663"
 
   def install
     bin.install "nimble"
@@ -13,4 +13,3 @@ class NimbleX86 < Formula
     system "false"
   end
 end
-
